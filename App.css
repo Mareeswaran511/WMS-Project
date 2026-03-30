@@ -1,0 +1,19 @@
+/* Full page background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #eef2f7, #dbeafe);
+}
+
+/* Content area */
+.content {
+  min-height: 100vh;
+  background: transparent;
+  padding: 20px;
+}
+
+/* Cards look better */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+}
