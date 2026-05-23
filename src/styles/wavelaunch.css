@@ -1,0 +1,91 @@
+.launch-page {
+  background: #1e1e2f;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+
+.launch-header {
+  margin-bottom: 20px;
+}
+
+.launch-card {
+  background: #2b2b3d;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 1100px;
+}
+
+.launch-form {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.launch-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.launch-field label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.small-input {
+  width: 240px;
+}
+
+.launch-btn-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.launch-btn {
+  min-width: 110px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid #4b5563;
+  background: #1d2033;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.launch-btn:hover {
+  background: #2a2f47;
+  border-color: #6b7280;
+}
+
+/* GRID */
+
+.launch-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1f2937;
+}
+
+.launch-table th {
+  background: #374151;
+  color: white;
+  padding: 12px;
+  border: 1px solid #4b5563;
+  text-align: left;
+}
+
+.launch-table td {
+  padding: 12px;
+  border: 1px solid #4b5563;
+}
+
+.launch-table tr:hover {
+  background: #374151;
+}
+
+.selected-row {
+  background: #374151;
+}

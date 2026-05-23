@@ -1,0 +1,48 @@
+.details-bg {
+  background: #1e1e2f;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.details-card {
+  background: #2b2b3d;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 950px;
+  margin: auto;
+  color: #fff;
+}
+
+.dark-input {
+  background: #1e1e2f !important;
+  border: 1px solid #555 !important;
+  color: #fff !important;
+}
+
+.dark-input:focus {
+  background: #1e1e2f !important;
+  color: #fff !important;
+  border-color: #1976d2 !important;
+  box-shadow: none !important;
+}
+
+.custom-table {
+  color: #fff;
+}
+
+.custom-table thead {
+  background: #333;
+}
+
+.custom-table td,
+.custom-table th {
+  border-color: #444 !important;
+}
+
+.custom-table tbody tr {
+  cursor: pointer;
+}
+
+.selected-row {
+  background: #444 !important;
+}

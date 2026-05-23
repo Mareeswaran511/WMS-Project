@@ -1,0 +1,106 @@
+/* ═══════════════════════════════════════════════
+   global.css  —  Shared across ALL screens
+   Import this once in App.jsx or index.js
+   ═══════════════════════════════════════════════ */
+
+/* ── Page wrapper (dark background) ── */
+.page-bg {
+  background: #1e1e2f;
+  min-height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+
+/* ── Card container ── */
+.main-card {
+  background: #2b2b3d;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 950px;
+  margin: auto;
+  color: #fff;
+}
+
+/* ── Wide card (wave / launch screens) ── */
+.wide-card {
+  background: #2b2b3d;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 1100px;
+  color: #fff;
+}
+
+/* ── Page header row ── */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* ── Dark form inputs ── */
+.dark-input {
+  background: #1e1e2f !important;
+  border: 1px solid #555 !important;
+  color: #fff !important;
+}
+.dark-input:focus {
+  background: #1e1e2f !important;
+  color: #fff !important;
+  border-color: #1976d2 !important;
+  box-shadow: none !important;
+}
+
+/* ── Read-only input (slightly muted) ── */
+.dark-input[readOnly] {
+  opacity: 0.7;
+  cursor: default;
+}
+
+/* ─────────────────────────────────────────────
+   UNIFIED BUTTON SYSTEM
+   All screens use .custom-btn + a modifier.
+   Same size, same shape — only colour changes.
+   ───────────────────────────────────────────── */
+.custom-btn {
+  min-width: 100px;
+  padding: 9px 18px;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+  color: #fff;
+}
+.custom-btn:hover  { opacity: 0.88; transform: translateY(-1px); }
+.custom-btn:active { transform: translateY(0); }
+.custom-btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+
+/* Colour variants */
+.save-btn    { background: #2563eb; }   /* blue   — Submit / Save  */
+.add-btn     { background: #16a34a; }   /* green  — Add / Query    */
+.update-btn  { background: #d97706; }   /* amber  — Update         */
+.delete-btn  { background: #dc2626; }   /* red    — Delete         */
+.reset-btn   { background: #6b7280; }   /* grey   — Reset/Refresh  */
+.back-btn    { background: #0f172a; border: 1px solid #4b5563; } /* dark — Back */
+.details-btn { background: #7c3aed; }   /* purple — Details        */
+.launch-btn-color { background: #0e7490; } /* teal — Launch         */
+
+/* ── Shared table styles ── */
+.custom-table         { color: #fff; }
+.custom-table thead   { background: #374151; }
+.custom-table th,
+.custom-table td      { border-color: #4b5563 !important; padding: 10px 12px; }
+.custom-table tbody tr { cursor: pointer; }
+.custom-table tbody tr:hover { background: #374151; }
+.selected-row         { background: #444 !important; }
+
+/* ── Checkbox row ── */
+.checkbox-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
